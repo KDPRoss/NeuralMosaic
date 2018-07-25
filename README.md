@@ -52,6 +52,7 @@ Some observations:
   tiles to choose from, so this isn't entirely
   surprising; the ripples on the water, however,
   show a vastly-more-interesting variety.
+  ![Image of Wharf](https://github.com/KDPRoss/NeuralMosaic/raw/master/examples/monterey-wharf-photomosaic4_2.jpg)
 
 - `leopard-shark`: This greyscale image produced
   *dreadful* results using earlier CNN layers; I'm
@@ -62,6 +63,7 @@ Some observations:
   more-abstract features are encoded -- seems to
   allow the code to focus on finding tiles that
   match up with the textures, luminosity, etc.
+  ![Image of Shark](https://github.com/KDPRoss/NeuralMosaic/raw/master/examples/leopard-shark-photomosaic5_4.jpg)
 
 - `azureus`: This is the output from the examples
   that I find most-compelling. The
@@ -72,11 +74,13 @@ Some observations:
   the frog's back, but it's clearly 'tried' (i.e.,
   a number of the spots have been replaced by
   tiles that decently match their rough shapes).
+  ![Image of Pretty Frog](https://github.com/KDPRoss/NeuralMosaic/raw/master/examples/azureus-photomosaic4_2.jpg)
 
 - `central-coast-fields`: Here, again, there is a
   lot of repetition in the sky's tiles; the trees,
   however, in the midground seem to have been
   tiled quite well.
+  ![Image of Fields with Blue Sky](https://github.com/KDPRoss/NeuralMosaic/raw/master/examples/central-coast-fields-photomosaic4_2.jpg)
 
 - `jardin-des-plantes`: Here, I've upscaled a low
   depth-of-field SLR image, generated the
@@ -84,12 +88,14 @@ Some observations:
   'pixels' (i.e., nearly-solid-colour) tiles, but
   it's done relatively well on the detail in the
   foreground.
+  ![Image of Jardin des Plantes](https://github.com/KDPRoss/NeuralMosaic/raw/master/examples/jardin-des-plantes-photomosaic4_2-with-rescaling.jpg)
 
 - `monet-waterlilies`: Close up, it's rather
   difficult to make out the image, but viewing
   from a distance it looks rather good ... which,
   I suppose, is what some people would say about
   the Impressionists' work.
+  ![Image of Monet's Waterlilies](https://github.com/KDPRoss/NeuralMosaic/raw/master/examples/monet-waterlilies-photomosaic4_2.jpg)
 
 ## Caveats
 
